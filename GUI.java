@@ -166,7 +166,6 @@ public class GUI extends JFrame implements ChangeListener, ActionListener
 
         //button
         calculate = new JButton("Calculate"); 
-        calculate.addChangeListener(this); 
         calculate.setBackground(Color.YELLOW); 
         calculate.setOpaque(true);  
         calculate.addActionListener(this);
