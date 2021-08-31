@@ -47,19 +47,19 @@ public class GUI extends JFrame implements ChangeListener, ActionListener
     protected JFormattedTextField rentalAmountInput;
 
 
-    private JButton calculate;
+    protected JButton calculate;
 
-    private JTextArea outputArea; 
+    protected JTextArea outputArea; 
 
-    private JSpinner weekDaySpinner; 
-    private JSpinner weekEndSpinner;
+    protected JSpinner weekDaySpinner; 
+    protected JSpinner weekEndSpinner;
 
 
-    private Integer weekDay; 
-    private Integer weekEnd;
+    protected Integer weekDay; 
+    protected Integer weekEnd;
 
-    private CalcRentalAmount calc = new CalcRentalAmount();
-    private DecimalFormat df = new DecimalFormat("$#, ##0.00");
+    protected CalcRentalAmount calc = new CalcRentalAmount();
+    protected DecimalFormat df = new DecimalFormat("$#, ##0.00");
 
 
 
